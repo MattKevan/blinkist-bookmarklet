@@ -3,7 +3,7 @@
 Simple bookmarklets to export a Blinkist book summary to Markdown.
 
 * bookmarklet.js - Opens a modal with the converted text
-* obsidian.js - Creates a new note in Obsidian with the converted text.
+* obsidian.js - Saves a new note in Obsidian.
 
 ![Screenshot of the bookmarklet in action](screenshot.png)
 
