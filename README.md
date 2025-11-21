@@ -12,9 +12,11 @@ Simple bookmarklets to export a Blinkist book summary to Markdown.
 1. Copy the code from the bookmarklet you want to use. Use the min.js version.
 2. Create a new bookmark and paste the code into the address field.
 3. Log into your Blinkist account and find the book you want to read.
-4. Click the bookmarklet and a modal will open containing the converted text.
+4. Click the bookmarklet.
+   
+The Obsidian bookmarklet will automatically open the app and create a new note in a 'Summaries' folder. You can change the location, category and tags by editing the variables at the top of the script. After making changes, I recommend minifiying and encoding the script with  [Bookmarklet Maker](https://caiorss.github.io/bookmarklet-maker/).
 
 NOTE: If you're using Safari you'll need to enable 'Allow JavaScript from Smart Search field' in the developer settings.
 
-The Obsidian bookmarklet is based on Kepano's [Obsidian web clipper](https://gist.github.com/kepano/90c05f162c37cf730abb8ff027987ca3). The default template is designed for use with the Dataview plugin. If you make changes, use [Bookmarklet Maker](https://caiorss.github.io/bookmarklet-maker/) to minify and encode the script.
+The Obsidian script is based on Kepano's [Obsidian web clipper](https://gist.github.com/kepano/90c05f162c37cf730abb8ff027987ca3).
 
