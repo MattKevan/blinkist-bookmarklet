@@ -1,7 +1,8 @@
 javascript:(function(){
-  const folder = "Clippings/"; 
+  const folder = "Summaries/";
+  const category = "[[Summaries]]"
   const vault = ""; 
-  const baseTags = "clippings, blinkist"; 
+  const baseTags = "summary, blinkist"; 
 
   function getBookId() {
     var match = document.body.innerHTML.match(/"id":"([0-9a-f]{24})"/);
@@ -105,7 +106,7 @@ javascript:(function(){
 
       var fileContent = 
         '---\n' +
-        'category: "[[Clippings]]"\n' +
+        'category: "' + category + '"\n' +
         'author: "' + authorLink + '"\n' +
         'title: "' + finalTitle + '"\n' +
         'source: ' + url + '\n' +
