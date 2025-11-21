@@ -1,6 +1,8 @@
-# Blinkist bookmarklet
+# Blinkist-to-Markdown bookmarklet
 
-Simple bookmarklet to convert a Blinkist book summary to Markdown. 
+A simple bookmarklet to convert a Blinkist book summary to Markdown. 
+
+![Screenshot of the bookmarklet in action](screenshot.png)
 
 ## How to use
 
