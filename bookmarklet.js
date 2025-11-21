@@ -63,7 +63,7 @@ javascript:(function(){
       box.style.cssText = "background:#fff;width:800px;height:80%;padding:20px;border-radius:8px;display:flex;flex-direction:column;box-shadow:0 0 20px rgba(0,0,0,0.5);";
       var header = document.createElement('div');
       header.style.cssText = "display:flex;justify-content:space-between;margin-bottom:10px;";
-      header.innerHTML = '<h2 style="margin:0">Markdown Content</h2><button onclick="document.getElementById(\'blinkist-md-overlay\').remove()">Close</button>';
+      header.innerHTML = '<h2 style="margin:0">Markdown content</h2><button onclick="document.getElementById(\'blinkist-md-overlay\').remove()">Close</button>';
       var textarea = document.createElement('textarea');
       textarea.value = md;
       textarea.style.cssText = "flex:1;width:100%;font-family:monospace;padding:10px;border:1px solid #ccc;";
@@ -77,7 +77,7 @@ javascript:(function(){
         document.execCommand('copy');
         this.innerText = "Copied!";
         var _this = this;
-        setTimeout(function(){ _this.innerText = "Copy to Clipboard"; }, 2000);
+        setTimeout(function(){ _this.innerText = "Copy to clipboard"; }, 2000);
       };
       footer.appendChild(copyBtn);
       box.appendChild(header);
